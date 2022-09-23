@@ -16,6 +16,8 @@
     font-family: Inter;
     font-size: 20px;
     border-radius: 70px;
+    height: 43px;
+    width: 129px;
 }
 
 .jumbotron {
@@ -66,3 +68,40 @@
     left: 16px;
 }
 
+/* info content */
+.info-content {
+    background-color: white;
+    border-radius: 20px;
+    height: 170px;
+    width: 1183px;
+    margin-top: -260px;
+    padding: 42px;
+}
+
+.tombol-1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    padding-top: 20px;
+    border-radius: 18px;
+    height: 90px;
+    width: 216px;
+    margin-left: 130px;
+}
+
+.info-content .text-1 {
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.info-content .text-2 {
+    font-family: Open Sans;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.info-content .text-3 {
+    font-family: Open Sans;
+    font-size: 16px;
+    padding-top: 15px;
+}
