@@ -105,3 +105,23 @@
     font-size: 16px;
     padding-top: 15px;
 }
+
+/* Container-2 */
+.info-text {
+    margin-top: 100px;
+    padding-left: 450px;
+}
+
+.text-dest {
+    font-family: Montserrat;
+    font-size: 48px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.text-vis {
+    font-family: Montserrat;
+    font-size: 30px;
+}
