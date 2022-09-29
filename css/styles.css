@@ -28,7 +28,7 @@
 }
 
 .jumbotron .display-4 {
-    padding-top: 420px;
+    padding-top: 480px;
     font-family: Montserrat;
     font-size: 58px;
     color: white;
@@ -133,6 +133,7 @@
     font-family: Montserrat;
     font-size: 24px;
     margin-top: -55px;
+    padding-left: 10px;
 }
 
 .card {
@@ -146,4 +147,47 @@
     font-family: Montserrat;
     font-size: 12px;
     padding-top: 7px;
+}
+
+/* jumbotron-1 */
+
+.jumbotron-1 {
+    background-size: cover;
+    height: 1261px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.jumbotron-1 .display-5 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #2F3F4C;
+}
+
+.jumbotron-1 .lead-1 {
+    font-family: Open Sans;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #142D3F;
+}
+
+.jumbotron-1 .trans-i {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    color: #024572;
+}
+
+.jumbotron-1 .lead-2 {
+    font-family: Open Sans;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #222222;
+}
+
+.jumbotron-lp {
+    background-size:cover;
+    height: 1014px;
+    filter:hue-rotate(10);
+    text-align: center;
 }
