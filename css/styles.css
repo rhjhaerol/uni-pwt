@@ -28,7 +28,7 @@
 }
 
 .jumbotron .display-4 {
-    padding-top: 480px;
+    padding-top: 420px;
     font-family: Montserrat;
     font-size: 58px;
     color: white;
@@ -149,7 +149,7 @@
     padding-top: 7px;
 }
 
-/* jumbotron-1 */
+/* Login & Signin Page */
 
 .jumbotron-1 {
     background-size: cover;
@@ -211,7 +211,7 @@
     height: 80px;
 }
 
-.box p {
+.box .text-ats-1 {
     padding-top: 70px;
     text-align: center;
     font-family: Montserrat;
@@ -246,4 +246,21 @@
     text-indent: 13px;
     margin: 13px;
     border: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+.box .text-ats {
+    padding-top: 70px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16;
+    color: #34607F;
+    opacity: 0.53;
+    filter: alpha(opacity=53);
+}
+
+.text .text-bwh {
+    text-align: center;
+    padding-top: 60px;
+    font-family: Open Sans;
+    font-size: 14px;
 }
