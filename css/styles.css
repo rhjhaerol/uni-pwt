@@ -288,3 +288,112 @@
     margin: 17px;
     border: 1px solid rgba(0, 0, 0, 0.56);
 }
+
+
+/* destination */
+.jumbotron-ds {
+  background-size: cover;
+  display: block;
+  height: 520px;
+  margin-top: -150px;
+}
+
+.img-box {
+
+}
+
+.nav-item {
+    margin-left: 20px;
+  }
+  .butn {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .foto {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  
+  .btn1 {
+    border-radius: 20px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+  }
+
+  .btn2 {
+    border-radius: 20px;
+  }
+  
+  .active {
+    color: #0d6efd !important;
+  }
+  
+  .img {
+    width: 120%;
+    border-radius: 20px;
+  }
+  .img1 {
+    margin-left: 20px;
+    width: 60%;
+    border-radius: 20px;
+  }
+  .imgex {
+    margin-top: 20px !important;
+  }
+  .btn3 {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+  }
+  .btnDiv {
+    display: block;
+  }
+  .p {
+    margin-bottom: 0px !important;
+  }
+  .spanRa {
+    font-size: medium;
+  }
+  .heart {
+    background-color: #E9F1FE;
+  }
+  .heart1 {
+    padding: 10px 40px;
+    border-left: 2px solid #3685FB;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .heart2 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 40px;
+  }
+  .text {
+    text-align: justify;
+  }
+  .textarea {
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .imgres{
+    border-radius: 100px;
+    width: 10%;
+    height: 10%;
+  }
+  .textarea1 {
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .texareabg {
+    background-color: whitesmoke;
+  }
+  .bg-light {
+    background-color: transparent!important;
+  }
+  
