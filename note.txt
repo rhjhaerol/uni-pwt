@@ -1,0 +1,11 @@
+lengkapi page
+update send button
+update destination button
+buat api login
+buat slide destination page
+perbaiki font
+page direction
+VR camera 360 not working
+page all photos
+perbaiki text box review
+perbaiki layout reviewer
