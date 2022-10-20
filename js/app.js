@@ -18,7 +18,7 @@ $(document).ready(function() {
             $('#info-msg').html(data.message);
 
             if (data.success) {
-                $(location).prop('href', 'home.php');
+                $(location).prop('href', 'home.html');
             }
 
         }).fail(function(data) {
