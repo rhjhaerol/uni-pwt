@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- Jumbotron -->
-    <div class="jumbotron-lp" style="background-image:url(assets/img/Bg-LandingPage.png) ;"></div>
+    <div class="jumbotron-lp" style="background-image:url(assets/img/background.jpg) ;"></div>
     <div class="container">
         <div class="box">
             <img src="assets/img/Group 6890.png" alt="">
