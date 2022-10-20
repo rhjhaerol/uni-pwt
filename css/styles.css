@@ -11,6 +11,13 @@
     }
 }
 
+.nav-link-1 {
+  font-family: Open Sans;
+  font-size: 18px;
+  text-decoration: none;
+  color: #142D3F;
+}
+
 /* Utility */
 .tombol {
     font-family: Inter;
@@ -147,6 +154,14 @@
     font-family: Montserrat;
     font-size: 12px;
     padding-top: 7px;
+}
+
+.img-dest {
+  width: 310px;
+  height: 257px;
+  margin: left;
+  border-radius: 10px;
+  margin-bottom: 70px;
 }
 
 /* Login & Signin Page */
@@ -346,16 +361,30 @@
   }
   .img1 {
     margin-left: 20px;
-    width: 60%;
+    width: 425px;
+    height: 250px;
     border-radius: 20px;
   }
   .imgex {
-    margin-top: 20px !important;
+    margin-top: 20px;
+  }
+  .all-photo {
+    width: 129px;
+    /* height: 10px; */
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
   }
   .btn3 {
     color: black;
     background-color: transparent;
     border-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 46px;
   }
   .btnDiv {
     display: block;
@@ -371,7 +400,7 @@
   }
   .heart1 {
     padding: 10px 40px;
-    border-left: 2px solid #3685FB;
+    border-left: 2px solid rgba(54, 133, 251, 0.55);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }
@@ -391,19 +420,75 @@
   }
   .imgres{
     border-radius: 100px;
-    width: 10%;
-    height: 10%;
+    width: 56px;
+    height: 56px;
   }
   .textarea1 {
     border-radius: 20px;
-    width: 80%;
+    width: 425px;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 100px; */
+  }
+  .frame-box {
+    width: 425px;
+    height: 437px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: -1px 2px 2px 2px rgba(112, 114, 117, 0.15);
   }
   .texareabg {
     background-color: whitesmoke;
+    width: 385px;
+    height: 246px;
   }
+  .texareabg1 {
+    width: 425px;
+    height: 246px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 2px 2px rgba(112, 114, 117, 0.15);
+  }
+
   .bg-light {
     background-color: transparent!important;
   }
   
+  /* profile page */
+  .frame {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .aaa {
+    font-family:Montserrat;
+    font-size: 36px;
+    padding-top: 22px;
+  }
+
+  .card-member {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, 0.5);
+    width: 471px;
+    height: 275px;
+    border-radius: 20px;
+    background-color: rgba(211, 136, 62, 0.8);
+    margin: auto;
+  }
+
+  .lingkaran {
+    border-radius: 100px;
+    width: 193px;
+    height: 193px;
+    background-color: #FFFFFF;
+  }
+
+  .tier {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #222222;
+    /* padding-left: 35px; */
+    text-align: center;
+    margin-top: 10px;
+  }

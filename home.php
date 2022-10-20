@@ -35,7 +35,7 @@
               <a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-item nav-link" href="#destination">Destination</a>
               <a class="nav-item nav-link" href="#Guide">Guide</a>
-              <a class="nav-item btn btn-primary btn-lg tombol" href="signin-page.php">Sign Up</a>
+              <a class="nav-item nav-link" href="profile.html"><img src="assets\img\profile-user.png" alt="" style="width: 50px; heoght: 50px; margin-top:-10px;"></a>
             </div>
           </div>
         </div>

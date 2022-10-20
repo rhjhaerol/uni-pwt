@@ -27,11 +27,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-item nav-link" aria-current="page" href="index.php">Home</a>
-            <a class="nav-item nav-link active" href="destination.php">Destination</a>
-            <a class="nav-item nav-link" href="#">Guide</a>
-            <a class="nav-item nav-link" href="login-page.php">Login</a>
-            <a class="nav-item btn btn-primary btn-lg tombol" href="signin-page.php">Sign Up</a>
+              <a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-item nav-link" href="#destination">Destination</a>
+              <a class="nav-item nav-link" href="#Guide">Guide</a> 
+              <a class="nav-item nav-link" href="profile.html"><img src="assets\img\profile-user.png" alt="" style="width: 50px; heoght: 50px; margin-top:-10px;"></a>
           </div>
         </div>
       </div>
@@ -40,20 +39,51 @@
     <!-- Jumbotron -->
     <div class="jumbotron-ds jumbotron-fluid" style="background-image:url(assets/img/background.jpg); background-position:0px;">
     </div>
-    <div class="container py-5">
+    <div class="container pb-5">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid py-3" style="margin-bottom:20px; margin-left:-30px;">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link-1" href="#" style=”text-decoration:none”>Home</a>
+            </li>
+            <li class="nav-item">
+              <img src="assets\Play.png" alt="" width="20px" height="20px">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-1" href="#" style=”text-decoration:none”>Destination</a>
+            </li>
+            <li class="nav-item">
+              <img src="assets\Play.png" alt="" width="20px" height="20px">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-1" href="#" style=”text-decoration:none”>Baturraden</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
       <div class="row">
-        <div class="col-6">
+        <div class="col-7">
           <div class="img-box">
-            <iframe src="https://momento360.com/e/u/bbc1aad94e834f73930e494e1345830b?utm_campaign=embed&utm_source=other&heading=-124.3&pitch=-4.2&field-of-view=75&size=medium" frameborder="0" width="760px" height="480px" style="border-radius: 20px;"></iframe>
+            <iframe src="https://momento360.com/e/u/bbc1aad94e834f73930e494e1345830b?utm_campaign=embed&utm_source=other&heading=-124.3&pitch=-4.2&field-of-view=75&size=medium" frameborder="0" width="750px" height="520px" style="border-radius: 20px;"></iframe>
           </div>
           <div style="margin-top: 20px">
             <h1>Batu Raden</h1>
             <p class="p">Desa Karangduwur, kecamatan Ayah, kebumen</p>
-            <p class="p"><i class="fa-regular fa-clock"></i> <span> Buka</span> 07.00 - 22.00</p>
-            <div class="butn d-grid gap-2 d-md-flex justify-content-md-end">
-              <button class="btn btn3 btn-primary" type="button"><i class="fa-regular fa-heart"></i> Save</button>
-              <button class="btn btn3 btn-primary" type="button"><i class="fa-solid fa-share"></i> Share</button>
+            <div class="row pt-3">
+              <div class="col-6">
+                <p class="p"><i class="fa-regular fa-clock"></i> <span style="color: #FF0000;"> Buka</span> 07.00 - 22.00</p>
+              </div>
+              <div class="col-6">
+                <div class="butn d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn3 btn-primary" type="button"><i class="fa-regular fa-heart"></i>  Save</button>
+                  <button class="btn btn3 btn-primary" type="button"><i class="fa-solid fa-share"></i>  Share</button>
+                </div>
+              </div>
             </div>
+            
+            
           </div>
           <hr />
           <h3>Description</h3>
@@ -102,9 +132,12 @@
             <span class="active">meals range from 10-20K</span>
           </p>
         </div>
-        <div class="col-6">
-          <img class="img1" src="https://jejakpiknik.com/wp-content/uploads/2019/06/Baturraden-1-630x380-1.jpg" style="display: block; margin: auto" alt="gmbr" />
-          <img class="img1 imgex" src="https://jejakpiknik.com/wp-content/uploads/2019/06/Baturraden-1-630x380-1.jpg" style="display: block; margin: auto" alt="gmbr" />
+        <div class="col-5">
+          <div class="ms-3">
+            <img class="img1" src="https://jejakpiknik.com/wp-content/uploads/2019/06/Baturraden-1-630x380-1.jpg" style="display: block;" alt="gmbr"/>
+            <img class="img1 imgex" src="https://jejakpiknik.com/wp-content/uploads/2019/06/Baturraden-1-630x380-1.jpg" style="" alt="gmbr"/>
+            <a href="#" class="btn all-photo" style="margin-left:280px; margin-top:-100px; padding-bottom:7px;">All Photos</a>
+          </div>
           <div class="rowst row row-cols-auto">
             <div class="col heart heart2" style="display: block; margin-left: auto; margin-top: 20px">
               <h2 style="color: #0d6efd; font-family: Open Sans; ">4.9 <span class="spanRa">Dari 5</span></h2>
@@ -115,11 +148,14 @@
               <h5 class="text-center" style="color: red"><i class="fa-solid fa-heart"></i></h5>
             </div>
           </div>
-          <div class="textarea texareabg">
-            <h3 style="text-align: center; color: orange"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></h3>
-            <textarea class="texareabg" style="display: block; margin: auto; border: none" placeholder="Drop your review in here" name="" id="" cols="30" rows="10"></textarea>
+          <div class="frame-box ms-5">
+            <div class="textarea texareabg">
+              <h3 style="text-align: center; color: orange; background-color:#FFFFFF; padding-top:20px; padding-bottom:40px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></h3>
+              <textarea class="texareabg" style="display: block; margin: auto; border: none; text-indent:30px; padding-top:10px;" placeholder="Drop your review in here" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <a href="" class="btn btn-primary" style="margin-left:295px; margin-top:120px; width:110px; border-radius:10px;">Send</a>
           </div>
-          <div class="textarea1 texareabg d-flex">
+          <div class="textarea1 texareabg1 d-flex mt-5 ">
             <img style="margin-top: 20px; margin-left: 20px; margin-right: 20px;" class="imgres" src="https://i.pinimg.com/564x/5f/9c/0a/5f9c0accdf494462a8505ed8f3890a03.jpg" alt="" />
             <div style="margin-top: 20px">
               <h6>Bungga Lestari M</h6>
@@ -127,7 +163,7 @@
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et a delectus id inventore. Officiis aperiam iusto est, autem blanditiis aut praesentium nihil amet explicabo atque harum fugiat deleniti veniam doloremque?</p>
             </div>
           </div>
-          <div class="textarea1 texareabg d-flex">
+          <div class="textarea1 texareabg1 d-flex mt-3">
             <img style="margin-top: 20px;  margin-left: 20px; margin-right: 20px; " class="imgres" src="https://i.pinimg.com/564x/5f/9c/0a/5f9c0accdf494462a8505ed8f3890a03.jpg" alt="" />
             <div style="margin-top: 20px">
               <h6>Bungga Lestari M</h6>
