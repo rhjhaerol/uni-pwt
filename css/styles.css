@@ -1,0 +1,494 @@
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.8);
+    }
+    .nav-link {
+        font-family: Inter;
+        font-size: 20px; 
+        margin-right: 36px;
+    }
+}
+
+.nav-link-1 {
+  font-family: Open Sans;
+  font-size: 18px;
+  text-decoration: none;
+  color: #142D3F;
+}
+
+/* Utility */
+.tombol {
+    font-family: Inter;
+    font-size: 20px;
+    border-radius: 70px;
+    height: 43px;
+    width: 129px;
+}
+
+.jumbotron {
+    background-size: cover;
+    height: 1024px;
+    text-align: center;
+    margin-top: -160px;
+}
+
+.jumbotron .display-4 {
+    padding-top: 420px;
+    font-family: Montserrat;
+    font-size: 58px;
+    color: white;
+}
+
+.jumbotron .lead {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.search{
+    position: relative;
+    padding-top: 37px;
+}
+
+.search input{
+    font-family: Montserrat;
+    margin: auto;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    width: 832px;
+    height: 57px;
+    text-indent: 45px;
+    border-radius: 20px;
+}
+
+.search input:focus{
+    box-shadow: none;
+}
+
+.search .fa-search{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+/* info content */
+.info-content {
+    background-color: white;
+    border-radius: 20px;
+    height: 170px;
+    width: 1183px;
+    margin-top: -260px;
+    padding: 42px;
+}
+
+.tombol-1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    padding-top: 20px;
+    border-radius: 18px;
+    height: 90px;
+    width: 216px;
+    margin-left: 130px;
+}
+
+.info-content .text-1 {
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.info-content .text-2 {
+    font-family: Open Sans;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.info-content .text-3 {
+    font-family: Open Sans;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+/* Container-2 */
+.info-text {
+    margin-top: 100px;
+    padding-left: 450px;
+    padding-bottom: 100px;
+}
+
+.text-dest {
+    font-family: Montserrat;
+    font-size: 48px;
+    color: #2F3F4C;
+}
+
+.color-blue {
+    color: #3685FB;
+}
+
+.text-vis {
+    font-family: Montserrat;
+    font-size: 30px;
+}
+
+/* Box-Content */
+.card-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-top: -55px;
+    padding-left: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    width: 358px;
+    height: 453px;
+    padding-top: 20px;
+}
+
+.text-place {
+    font-family: Montserrat;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.img-dest {
+  width: 310px;
+  height: 257px;
+  margin: left;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+/* Login & Signin Page */
+
+.jumbotron-1 {
+    background-size: cover;
+    height: 1080px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.jumbotron-1 .display-5 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #2F3F4C;
+}
+
+.jumbotron-1 .lead-1 {
+    font-family: Open Sans;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #142D3F;
+}
+
+.jumbotron-1 .trans-i {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    color: #024572;
+}
+
+.jumbotron-1 .food-i {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  color: #024572;
+}
+
+.jumbotron-1 .lead-2 {
+    font-family: Open Sans;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #222222;
+}
+
+.jumbotron-lp {
+    background-size:cover;
+    height: 1014px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    text-align: center;
+}
+
+.box {
+    border: 1px rgba(0, 0, 0, 0.25);
+    width: 564px;
+    background-color: white;
+    border-radius: 20px;
+    height: 764px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -27.8%);
+    padding-top: 40px;
+}
+
+.box img {
+    margin-left: 180px;
+    width: 290px;
+    height: 80px;
+}
+
+.box .text-ats-1 {
+    padding-top: 70px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16;
+    color: #34607F;
+    opacity: 0.53;
+    filter: alpha(opacity=53);
+}
+
+.box .tombol-2 {
+    text-align: center;
+    width: 261px;
+    height: 32px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: #3685FB;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+.form {
+    position: relative;
+    margin-left: 80px;
+}
+
+.form input {
+    width: 381px;
+    height: 45px;
+    border-radius: 30px;
+    text-indent: 13px;
+    margin: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+.box .text-ats {
+    padding-top: 70px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16;
+    color: #34607F;
+    opacity: 0.53;
+    filter: alpha(opacity=53);
+}
+
+.text .text-bwh {
+    text-align: center;
+    padding-top: 60px;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+.card-text-f {
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-top: -55px;
+  padding-left: 10px;
+}
+
+.card-f {
+  background-color: #F9F9FB;
+  border-radius: 20px;
+  width: 358px;
+  height: 385px;
+  padding-top: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: #014670;
+    height: 759px;
+}
+
+.form-ft input {
+    width: 498px;
+    height: 86px;
+    border-radius: 20px;
+    text-indent: 13px;
+    margin: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+
+/* destination */
+.jumbotron-ds {
+  background-size: cover;
+  display: block;
+  height: 520px;
+  margin-top: -150px;
+}
+
+.nav-item {
+    margin-left: 20px;
+  }
+  .butn {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .foto {
+    margin-left: auto;
+    margin-left: auto;
+  }
+  
+  .btn1 {
+    border-radius: 20px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+  }
+
+  .btn2 {
+    border-radius: 20px;
+  }
+  
+  .active {
+    color: #0d6efd !important;
+  }
+  
+  .img {
+    width: 120%;
+    border-radius: 20px;
+  }
+  .img1 {
+    margin-left: 20px;
+    width: 425px;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .imgex {
+    margin-top: 20px;
+  }
+  .all-photo {
+    width: 129px;
+    /* height: 10px; */
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .btn3 {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 46px;
+  }
+  .btnDiv {
+    display: block;
+  }
+  .p {
+    margin-bottom: 0px !important;
+  }
+  .spanRa {
+    font-size: medium;
+  }
+  .heart {
+    background-color: #E9F1FE;
+  }
+  .heart1 {
+    padding: 10px 40px;
+    border-left: 2px solid rgba(54, 133, 251, 0.55);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .heart2 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 40px;
+  }
+  .text {
+    text-align: justify;
+  }
+  .textarea {
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .imgres{
+    border-radius: 100px;
+    width: 56px;
+    height: 56px;
+  }
+  .textarea1 {
+    border-radius: 20px;
+    width: 425px;
+    margin: auto;
+    /* margin-top: 100px; */
+  }
+  .frame-box {
+    width: 425px;
+    height: 437px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: -1px 2px 2px 2px rgba(112, 114, 117, 0.15);
+  }
+  .texareabg {
+    background-color: whitesmoke;
+    width: 385px;
+    height: 246px;
+  }
+  .texareabg1 {
+    width: 425px;
+    height: 246px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 2px 2px rgba(112, 114, 117, 0.15);
+  }
+
+  .bg-light {
+    background-color: transparent!important;
+  }
+  
+  /* profile page */
+  .frame {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .aaa {
+    font-family:Montserrat;
+    font-size: 36px;
+    padding-top: 22px;
+  }
+
+  .card-member {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 2px 1px rgba(0, 0, 0, 0.5);
+    width: 471px;
+    height: 275px;
+    border-radius: 20px;
+    background-color: rgba(211, 136, 62, 0.8);
+    margin: auto;
+  }
+
+  .lingkaran {
+    border-radius: 100px;
+    width: 193px;
+    height: 193px;
+    background-color: #FFFFFF;
+  }
+
+  .tier {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #222222;
+    /* padding-left: 35px; */
+    text-align: center;
+    margin-top: 10px;
+  }
