@@ -156,6 +156,20 @@
     padding-top: 7px;
 }
 
+.ket-icon {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding-left: 10px;
+  color: rgba(34, 34, 34, 0.56);
+}
+
+.num-icon {
+  font-family: Montserrat;
+  font-size: 14px;
+  /* font-weight: 500; */
+  margin-left: -5px;
+}
+
 .img-dest {
   width: 310px;
   height: 257px;
