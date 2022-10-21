@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
     <script src="https://kit.fontawesome.com/0ac2a089e1.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
     <!-- My CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Icon -->
@@ -35,7 +36,7 @@
               <a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-item nav-link" href="#destination">Destination</a>
               <a class="nav-item nav-link" href="#Guide">Guide</a>
-              <a class="nav-item nav-link" href="profile.html"><img src="assets\img\profile-user.png" alt="" style="width: 50px; heoght: 50px; margin-top:-10px;"></a>
+              <a class="nav-item nav-link" href="profile.php"><img src="assets\img\profile-user.png" alt="" style="width: 50px; heoght: 50px; margin-top:-10px;"></a>
             </div>
           </div>
         </div>
@@ -112,7 +113,9 @@
                             <div class="col-sm-4 splide__slide m-2">
                                 <div class="card shadow-sm">
                                   <div class="img-dest">
+                                    <a href="destination.php">  
                                     <img src="assets\img\Pantai Menganti.png" alt="" >
+                                    </a>
                                   </div>
                                     <!-- <img src="assets/img/Pantai Menganti.png" alt="Pantai Menganti"> -->
                                     <div class="card-body">
@@ -136,21 +139,21 @@
                             </div>
                             <div class="col-sm-4 splide__slide m-2">
                                 <div class="card shadow-sm">
+                                <a href="destination.php">
                                 <div class="img-dest" style="margin-left:-15px">
                                     <img src="assets\img\Owabong.png" alt="" >
                                 </div>
+                                </a>
                                     <div class="card-body">
                                       <p class="card-text">Owabong</p>
                                       <div class="d-flex justify-content-between align-items-center">
                                         <div class="row">
                                           <div class="col">
-                                            <img src="assets/Like.Status.Icon.png" alt="" width="30px" height="30px">
-                                            <span class="text-place">Purbalingga</span>
+                                          <i class="fas fa-location-dot" style="font-size:20px; color:#3685FB;"></i><span style="font-size:12px; font-family:">Purbalingga</span>
                                           </div>
                                           <div class="row">
                                             <div class="col">
-                                              <img src="assets/Like.Status.Icon.png" alt="" width="30px" height="30px">
-                                              <span class="text-place">500</span>
+                                            <i class="fas fa-clock">500</i>
                                             </div>
                                           </div>
                                         </div>
@@ -160,7 +163,9 @@
                             </div>
                             <div class="col-sm-4 splide__slide m-2">
                                 <div class="card shadow-sm">
+                                    <a href="destination.php">
                                     <img src="assets\img\TelagaSunyi.png" alt="Telaga Sunyi" class="img-dest ms-4" style="margin-top:10px;">
+                                    </a>
                                     <div class="card-body">
                                       <p class="card-text">Telaga Sunyi</p>
                                       <div class="d-flex justify-content-between align-items-center">
@@ -182,7 +187,9 @@
                             </div>
                             <div class="col-sm-4 splide__slide m-2">
                                 <div class="card shadow-sm">
+                                    <a href="destination.php">
                                     <img src="assets\img\TamanAndang.png" alt="Taman Andang">
+                                    </a>
                                     <div class="card-body">
                                       <p class="card-text">Taman Andang</p>
                                       <div class="d-flex justify-content-between align-items-center">

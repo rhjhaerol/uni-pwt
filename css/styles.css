@@ -138,7 +138,7 @@
 /* Box-Content */
 .card-text {
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 44px;
     margin-top: -55px;
     padding-left: 10px;
 }
@@ -154,6 +154,12 @@
     font-family: Montserrat;
     font-size: 12px;
     padding-top: 7px;
+}
+
+.ket-icon {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .img-dest {
