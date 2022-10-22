@@ -285,6 +285,16 @@
     border: 1px solid rgba(0, 0, 0, 0.56);
 }
 
+.alt-login {
+  margin:auto;
+  width: 319px;
+  height: 35px;
+  border-radius: 30px;
+  text-indent: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.56);
+  margin-bottom: 17px;
+}
+
 .box .text-ats {
     padding-top: 70px;
     text-align: center;
@@ -505,4 +515,13 @@
     /* padding-left: 35px; */
     text-align: center;
     margin-top: 10px;
+  }
+
+  .ident {
+    border: 1px solid rgba(34, 34, 34, 0.56);
+    width: 297px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: auto;
   }
